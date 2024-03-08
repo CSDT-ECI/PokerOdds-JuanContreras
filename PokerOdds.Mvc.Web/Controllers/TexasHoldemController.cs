@@ -14,6 +14,9 @@ namespace PokerOdds.Mvc.Web.Controllers
 {
     public class TexasHoldemController : ApiController
     {
+        int stopWatchSeconds = 10;
+        int cardsNumber = 7;
+        long winner = 1.0;
         // GET api/TexasHoldem?pocket=as ks&board=Ts Qs 2d
         [OutputCache]
         public TexasHoldemOdds Get(string pocket, string board)
@@ -44,19 +47,19 @@ namespace PokerOdds.Mvc.Web.Controllers
                 foreach (ulong boardMask in Hand.Hands(partialBoard, opponentMask | playerMask, 5).AsParallel())
                 {
                     // Create a hand value for each player
-                    uint playerHandValue = Hand.Evaluate(boardMask | playerMask, 7);
-                    uint opponentHandValue = Hand.Evaluate(boardMask | opponentMask, 7);
+                    uint playerHandValue = Hand.Evaluate(boardMask | playerMask, cardsNumber);
+                    uint opponentHandValue = Hand.Evaluate(boardMask | opponentMask, cardsNumber);
 
                     // Calculate Winners
                     if (playerHandValue > opponentHandValue)
                     {
                         // Player Win
-                        playerWins[Hand.HandType(playerHandValue)] += 1.0;
+                        playerWins[Hand.HandType(playerHandValue)] += winner;
                     }
                     else if (playerHandValue < opponentHandValue)
                     {
                         // Opponent Win
-                        opponentWins[Hand.HandType(opponentHandValue)] += 1.0;
+                        opponentWins[Hand.HandType(opponentHandValue)] += winner;
                     }
                     else if (playerHandValue == opponentHandValue)
                     {
@@ -66,11 +69,11 @@ namespace PokerOdds.Mvc.Web.Controllers
                     }
                     count++;
 
-                    if (stopWatch.Elapsed > TimeSpan.FromSeconds(10))
+                    if (stopWatch.Elapsed > TimeSpan.FromSeconds(stopWatchSeconds))
                         break;
                 }
 
-                if (stopWatch.Elapsed > TimeSpan.FromSeconds(10))
+                if (stopWatch.Elapsed > TimeSpan.FromSeconds(stopWatchSeconds))
                     break;
             }
 
@@ -95,7 +98,7 @@ namespace PokerOdds.Mvc.Web.Controllers
                 Outcomes = outcomes.ToArray(),
                 OverallWinSplitPercentage = outcomes.Sum(o => o.WinPercentage),
                 CalculationTimeMS = stopWatch.ElapsedMilliseconds,
-                Completed = stopWatch.Elapsed <= TimeSpan.FromSeconds(10)
+                Completed = stopWatch.Elapsed <= TimeSpan.FromSeconds(stopWatchSeconds)
             };
 
             return results;
