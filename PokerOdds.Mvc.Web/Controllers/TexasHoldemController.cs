@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Mvc;
 using HoldemHand;
 using PokerOdds.Mvc.Web.Models.TexasHoldem;
 
@@ -15,9 +16,9 @@ namespace PokerOdds.Mvc.Web.Controllers
         int cardsNumber = 7;
         int twoCards = 2;
         int fiveCards = 5;
-        long winner = 1.0;
-        long HalfCreditsTies = 0.5;
-        long Percentage = 100.0;
+        long winner = (long)1.0;
+        long HalfCreditsTies = (long)0.5;
+        long Percentage = (long)100.0;
 
         [OutputCache]
         public TexasHoldemOdds Get(string pocket, string board)
