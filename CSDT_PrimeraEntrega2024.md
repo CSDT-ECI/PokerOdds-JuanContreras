@@ -35,16 +35,16 @@ _Adicionalmente descargue el complemento de SonarLint para VisualStudio y lo con
 ![Lint](/images/Lint.png)
 
 ## Análisis  📖
-![análisis](/images/piensa.png)(width=50%)
+![análisis](/images/piensa.png){width=50%}
 # SonarQube
 SonarQube es una herramienta invaluable para la gestión de la deuda técnica. Su capacidad para identificar, medir, priorizar y reducir la deuda técnica  es evidente una vez se entra  revisar el resultado del analisis de un proyecto, aun más cuando es un caso como este en el que hemos venido revisando la deuda tecnica de manera manual.
 
 Lo primero en llamar mi atencion es como el proyecto a pesar de contar ya con un pequeño grupo de pruebas unitarias y de que por mi parte agregue unas cuantas mas, en Sonar se ve reflejado un 0% de coverage, posiblemente se deba a algun tema de configuración que por el momento no logre solucionar.
 
 Juegando un poco en el sonar con las Quality Gates , cree una nueva con exigencias similares a las  trabajadas en un entorno mas real segun mi exoeriencia y dispare nuevamente el workflow esperando que fallara el quality gate,  copie la opcion que me daba el sonar  para que en el readme se lograra ver una etiqueta que muestra si el  paso o no paso, adjunto la logica a continuación  para los archivos md , pero  cuando se revise el trabajo no se podra ver adecuadamente ya que su funcionamiento depende de la ejecucion de sonar y ngrok en doker dada la naturaleza del desarrollo propuesto para esta actividad.
-
-[![Quality gate](https://bluejay-ethical-strangely.ngrok-free.app/api/project_badges/quality_gate?project=hello-sonar-ngrok&token=sqb_c75dbed51b0f804e2d1a16e2752c291ce2d86a48)](https://bluejay-ethical-strangely.ngrok-free.app/dashboard?id=hello-sonar-ngrok)
-
+~~~md
+// [![Quality gate](https://bluejay-ethical-strangely.ngrok-free.app/api/project_badges/quality_gate?project=hello-sonar-ngrok&token=sqb_c75dbed51b0f804e2d1a16e2752c291ce2d86a48)](https://bluejay-ethical-strangely.ngrok-free.app/dashboard?id=hello-sonar-ngrok)
+~~~
 En el apartado de Issues, gracias al filtrado podremos tener claras las prioridades gracias a la severidad con la que nos marca cada item ,  tambien nos dice de que tipo son (bug, code smell o vulnerabilidad)
 ![Lint](/images/Qube2.png)
 
