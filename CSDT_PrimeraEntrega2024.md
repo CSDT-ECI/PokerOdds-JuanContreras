@@ -36,7 +36,8 @@ _Adicionalmente descargue el complemento de SonarLint para VisualStudio y lo con
 
 ## Análisis  📖
 <img src='images/piensa.png' width='125'>
-# SonarQube
+
+### SonarQube
 SonarQube es una herramienta invaluable para la gestión de la deuda técnica. Su capacidad para identificar, medir, priorizar y reducir la deuda técnica  es evidente una vez se entra  revisar el resultado del analisis de un proyecto, aun más cuando es un caso como este en el que hemos venido revisando la deuda tecnica de manera manual.
 
 Lo primero en llamar mi atencion es como el proyecto a pesar de contar ya con un pequeño grupo de pruebas unitarias y de que por mi parte agregue unas cuantas mas, en Sonar se ve reflejado un 0% de coverage, posiblemente se deba a algun tema de configuración que por el momento no logre solucionar.
