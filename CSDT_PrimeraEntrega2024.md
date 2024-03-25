@@ -5,7 +5,7 @@ _Para esta entrega he decidido integrar [Sonarqube](https://docs.sonarsource.com
 ## Pasito a pasito 🛠️
 
 _En el apartao de Git Actions cree un workflow que al hacer un merge hacia la rama master se ejecutara y como tarea iba a compilar el proyecto y ejecutar las pruebas, pero este por la version d e .net aunque la ajustara estaba dando error_
-![Texto alternativo](/images/cat1.png)(width=50%)
+![Texto alternativo](/images/cat1.png | width=100)
 
 _Cree un workflow que me permitia realizar una integración de sonarqube_
 
@@ -35,7 +35,7 @@ _Adicionalmente descargue el complemento de SonarLint para VisualStudio y lo con
 ![Lint](/images/Lint.png)
 
 ## Análisis  📖
-![análisis](/images/piensa.png){width=50%}
+![análisis](/images/piensa.png | width=50)
 # SonarQube
 SonarQube es una herramienta invaluable para la gestión de la deuda técnica. Su capacidad para identificar, medir, priorizar y reducir la deuda técnica  es evidente una vez se entra  revisar el resultado del analisis de un proyecto, aun más cuando es un caso como este en el que hemos venido revisando la deuda tecnica de manera manual.
 
