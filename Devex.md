@@ -19,3 +19,14 @@
 - Comentarios del usuario: La retroalimentación de los usuarios sobre la usabilidad y funcionalidad de la aplicación.
 
 ## IA
+### GitHub Copilot
+Para demostrar el potencial de esta herramienta y como nos apoya en labores que normalmente no se prorizan pero que perjudican la calidad del codigo , tomare como referencia la clase HoldemOddsCalculator y la mejoraremos con GitHub Copilot.
+
+Para empezar el metodo Calculate es extenso , y complejo vamos apedirle a la IA ayuda para que sea mas facil de entender.
+![Descripción de la imagen](/images/devex1.png)
+Seguimos todos los consejos de Copilot , pero no todo es alegria y felicidad, la herramienta aun noes perfecta, genera algunos errores que tenemos que solucionar, por ende es importante verificar las respuestas que esta nos da.
+![Descripción de la imagen](/images/devex2.png) ![Descripción de la imagen](/images/devex3.png)
+
+Otra forma de utilizarlo que nos puede ahorrar bastante tiempo es generando documentación.
+ ![Descripción de la imagen](/images/devex3.png)
+ Con esto en muy poco tiempo reducimos la deuda tecnica, sin mucho esfuerzo y mejoramos la calidad del codigo.
