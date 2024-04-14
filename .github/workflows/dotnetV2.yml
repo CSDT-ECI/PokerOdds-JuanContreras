@@ -10,9 +10,8 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
+  build-and-test:
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -24,7 +23,7 @@ jobs:
     - name: Install .NET Framework 4.8 SDK
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '5.0'
+        dotnet-version: '4.8'
         
     - name: Restore dependencies
       run: dotnet restore
