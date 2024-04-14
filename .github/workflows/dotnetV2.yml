@@ -28,4 +28,4 @@ jobs:
       run: msbuild PokerOdds.sln /p:Configuration=Release /p:ExcludeFromBuild=PokerOdds.Azure.ccproj
 
     - name: Run Tests
-      run: dotnet test PokerOdds.sln --no-build --configuration Release
+      run: mstest /testcontainer:YourTestProject.dll
