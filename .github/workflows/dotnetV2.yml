@@ -25,7 +25,7 @@ jobs:
       run: nuget restore PokerOdds.sln
 
     - name: Build Solution
-      run: msbuild PokerOdds.sln /p:Configuration=Release
+      run: msbuild PokerOdds.sln /p:Configuration=Release /p:ExcludeFromBuild=PokerOdds.Azure.ccproj
 
     - name: Run Tests
       run: dotnet test PokerOdds.sln --no-build --configuration Release
