@@ -22,10 +22,10 @@ jobs:
       uses: NuGet/setup-nuget@v1
 
     - name: Restore NuGet Packages
-      run: nuget restore YourSolution.sln
+      run: nuget restore PokerOdds.sln
 
     - name: Build Solution
-      run: msbuild YourSolution.sln /p:Configuration=Release
+      run: msbuild PokerOdds.sln /p:Configuration=Release
 
     - name: Run Tests
-      run: dotnet test YourSolution.sln --no-build --configuration Release
+      run: dotnet test PokerOdds.sln --no-build --configuration Release
