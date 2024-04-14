@@ -16,13 +16,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        
     - name: Install .NET Framework 4.8 SDK
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '4.8'
+        
     - name: Restore dependencies
       run: dotnet restore
+      
     - name: Build
       run: dotnet build --no-restore
+      
     - name: Test
       run: dotnet test --no-build --verbosity normal
