@@ -126,6 +126,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PokerOdds.HandEvaluator\PokerOdds.HandEvaluator.csproj">
+      <Project>{5E185038-7473-42A9-B303-B2AA147C1157}</Project>
+      <Name>PokerOdds.HandEvaluator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PokerOdds.Mvc.Web\PokerOdds.Mvc.Web.csproj">
       <Project>{DC338043-19DC-48FF-AC51-FF11E3CE9C64}</Project>
       <Name>PokerOdds.Mvc.Web</Name>

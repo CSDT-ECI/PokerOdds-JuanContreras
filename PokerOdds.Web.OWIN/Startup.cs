@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Caching;
-using Microsoft.WindowsAzure.ServiceRuntime;
+//using Microsoft.WindowsAzure.ServiceRuntime;
 using Owin;
 using PokerOdds.Web.OWIN.Routers;
 using System.Linq;
@@ -19,21 +19,21 @@ namespace PokerOdds.Web.OWIN
 
         public void Configuration(IAppBuilder app)
         {
-            var cachePath = RoleEnvironment.IsAvailable ?
-                RoleEnvironment.GetLocalResource("fileCache").RootPath :
-                Path.Combine(Path.GetTempPath(), "PokerOdds.Web.OWIN");
+            //var cachePath = RoleEnvironment.IsAvailable ?
+            //    RoleEnvironment.GetLocalResource("fileCache").RootPath :
+            //    Path.Combine(Path.GetTempPath(), "PokerOdds.Web.OWIN");
 
-            Directory.CreateDirectory(cachePath);
+            //Directory.CreateDirectory(cachePath);
 
-            _cache = new FileBackedMemoryCache("cache", cachePath);
+            //_cache = new FileBackedMemoryCache("cache", cachePath);
 
-            _cache.MaxCacheSize = RoleEnvironment.IsAvailable ?
-                RoleEnvironment.GetLocalResource("fileCache").MaximumSizeInMegabytes * 1024L * 1024L :
-                2048L * 1024L * 1024L; //2GB
+            //_cache.MaxCacheSize = RoleEnvironment.IsAvailable ?
+            //    RoleEnvironment.GetLocalResource("fileCache").MaximumSizeInMegabytes * 1024L * 1024L :
+            //    2048L * 1024L * 1024L; //2GB
 
-            _cache.MaxCacheSizeReached += MaxCacheSizeReached;
+            //_cache.MaxCacheSizeReached += MaxCacheSizeReached;
 
-            PrimeCache();
+            //PrimeCache();
 
             var router = new RequestRouter { Cache = _cache };
 
