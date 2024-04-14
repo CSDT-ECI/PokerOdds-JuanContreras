@@ -14,24 +14,17 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install .NET Framework 4.8 SDK
-        uses: actions/setup-dotnet@v2
-        with:
-          dotnet-version: '4.8'
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
 
-      - name: Restore dependencies
-        run: dotnet restore
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
 
-      - name: Build the project
-        run: dotnet build
+      - name: Restore NuGet Packages
+        run: nuget restore YourSolution.sln
 
-      - name: Run unit tests
-        run: dotnet test
+      - name: Build Solution
+        run: msbuild YourSolution.sln /p:Configuration=Release
 
-      - name: Upload test results
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-results
-          path: |
-            **/test/output/*
-            **/coverage/*.html
+      - name: Run Tests
+        run: dotnet test YourSolution.sln --no-build --configuration Release
