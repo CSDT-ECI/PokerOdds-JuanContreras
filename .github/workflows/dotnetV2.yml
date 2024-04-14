@@ -23,9 +23,14 @@ jobs:
 
     - name: Restore NuGet Packages
       run: nuget restore PokerOdds.sln
-
+      
+    - name: Add mstest path
+      run: |
+        $mstestPath = "$(Get-ToolsLocation)\VSTest\v16.0"
+        $env:Path = "$env:Path;$mstestPath"
+        
     - name: Build Solution
       run: msbuild PokerOdds.sln /p:Configuration=Release /p:ExcludeFromBuild=PokerOdds.Azure.ccproj
 
     - name: Run Tests
-      run: mstest /testcontainer:YourTestProject.dll
+      run: mstest /testcontainer:PokerOdds.Mvc.Web.Tests.dll
