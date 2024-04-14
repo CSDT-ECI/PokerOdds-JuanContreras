@@ -34,6 +34,6 @@ jobs:
       uses: microsoft/vstest-action@v1.0.0
       with:
         testAssembly: PokerOdds.Mvc.Web.Tests.dll
-        searchFolder: .\TestProject\bin\Debug\
+        searchFolder: .\PokerOdds.Mvc.Web.Tests\bin\Debug\
         runInParallel: true
 
