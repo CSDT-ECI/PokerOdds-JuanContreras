@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{815C35
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PokerOdds.Azure", "PokerOdds.Azure\PokerOdds.Azure.ccproj", "{F22320CF-71F8-47EF-9C12-F81A16480A90}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerOdds.Mvc.Web", "PokerOdds.Mvc.Web\PokerOdds.Mvc.Web.csproj", "{DC338043-19DC-48FF-AC51-FF11E3CE9C64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerOdds.Mvc.Web.Tests", "PokerOdds.Mvc.Web.Tests\PokerOdds.Mvc.Web.Tests.csproj", "{BF77FCB2-947E-441F-8D44-C47E15D300BF}"
