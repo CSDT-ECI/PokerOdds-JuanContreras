@@ -15,21 +15,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'
-        
-    - name: Install .NET Framework 4.8 SDK
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: '4.8'
-        
-    - name: Restore dependencies
-      run: dotnet restore
-      
-    - name: Build
-      run: dotnet build --no-restore
-      
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1
+
+    - name: Restore NuGet Packages
+      run: nuget restore YourSolution.sln
+
+    - name: Build Solution
+      run: msbuild YourSolution.sln /p:Configuration=Release
+
+    - name: Run Tests
+      run: dotnet test YourSolution.sln --no-build --configuration Release
