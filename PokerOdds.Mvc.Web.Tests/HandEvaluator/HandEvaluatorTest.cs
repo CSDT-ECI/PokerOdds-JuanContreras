@@ -19,7 +19,7 @@ namespace PokerOdds.Mvc.Web.Tests.HandEvaluator
         public void TestHandEvaluatorWithRepeatedValues()
         {
             // Arrange
-            var hand = "";
+            var hand = "KD";
             //    new Card[]
             //{
             //new Card(Rank.Ace, Suit.Hearts),
@@ -33,7 +33,7 @@ namespace PokerOdds.Mvc.Web.Tests.HandEvaluator
             var handRank = Hand.Evaluate(hand);
 
             // Assert
-            Assert.Fail();
+            Assert.AreEqual(Convert.ToUInt32(720896), handRank);
         }
     }
 }
