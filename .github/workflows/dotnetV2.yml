@@ -23,9 +23,28 @@ jobs:
 
     - name: Restore NuGet Packages
       run: nuget restore PokerOdds.sln
-
+      
+    - name: Run a one-line script
+      run:  '& "$(vswhere -property installationPath)\Common7\IDE\MSTest.exe" /help'
+        
     - name: Build Solution
       run: msbuild PokerOdds.sln /p:Configuration=Release /p:ExcludeFromBuild=PokerOdds.Azure.ccproj
 
-    - name: Run Tests
-      run: dotnet test PokerOdds.sln --no-build --configuration Release
+    - name: Run vstests
+      uses: microsoft/vstest-action@v1.0.0
+      with:
+        searchFolder: '.' 
+        testAssembly: |
+            /**/*test*.dll
+            !./**/*PokerOdds.Mvc.Web.Tests.dll.dll
+            !./**/obj/**
+        runInParallel: true
+        
+    - name: Upload test results (optional)
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: |
+          **/test/output/*
+          **/coverage/*.html
+
