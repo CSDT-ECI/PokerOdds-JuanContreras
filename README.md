@@ -2,6 +2,11 @@
 
 Poker Odds API is an example API built using ASP.NET OWIN. Given a Texas Holdem Poker hand (and optionally the community cards) it will calculate the odds of winning.
 
+## Pages ##
+[CSDT-2024.md](/docs/CSDT-2024.md)
+[CSDT_PrimeraEntrega2024.md](/docs/CSDT_PrimeraEntrega2024.md)
+[TestingDebt.md](TestingDebt.md)
+[ArchitecturalSmells.md](ArchitecturalSmells.md)
 ## How It Works ##
 
 Poker Odds uses the excellent [PokerHandEval code written by Keith Rule](http://www.codeproject.com/Articles/12279/Fast-Texas-Holdem-Hand-Evaluation-and-Analysis) (based in turn on the [poker-eval library](http://pokersource.sourceforge.net/)). Users of the API submit information on their hand, and get back information on the possible outcomes of the game.
