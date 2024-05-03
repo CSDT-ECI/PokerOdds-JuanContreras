@@ -8,9 +8,9 @@ Poker Odds API is an example API built using ASP.NET OWIN. Given a Texas Holdem 
 
 [CSDT_PrimeraEntrega2024.md](/docs/CSDT_PrimeraEntrega2024.md)
 
-[TestingDebt.md](TestingDebt.md)
+[TestingDebt.md](/docs/TestingDebt.md)
 
-[ArchitecturalSmells.md](ArchitecturalSmells.md)
+[ArchitecturalSmells.md](/docs/ArchitecturalSmells.md)
 
 ## How It Works ##
 
