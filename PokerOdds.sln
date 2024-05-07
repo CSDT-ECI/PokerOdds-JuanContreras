@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{815C353B-6EAD-497D-876A-806DE20E45B1}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -26,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F22320CF-71F8-47EF-9C12-F81A16480A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F22320CF-71F8-47EF-9C12-F81A16480A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F22320CF-71F8-47EF-9C12-F81A16480A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F22320CF-71F8-47EF-9C12-F81A16480A90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC338043-19DC-48FF-AC51-FF11E3CE9C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC338043-19DC-48FF-AC51-FF11E3CE9C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC338043-19DC-48FF-AC51-FF11E3CE9C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,5 +55,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CA6A11E-5073-4BA9-9864-E52E2C179723}
 	EndGlobalSection
 EndGlobal

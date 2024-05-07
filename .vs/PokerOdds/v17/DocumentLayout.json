@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\dev\\PokerOdds-JuanContreras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|c:\\dev\\pokerodds-juancontreras\\pokerodds.mvc.web.tests\\handevaluator\\handevaluatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|solutionrelative:pokerodds.mvc.web.tests\\handevaluator\\handevaluatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|c:\\dev\\pokerodds-juancontreras\\pokerodds.mvc.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|solutionrelative:pokerodds.mvc.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.mvc.web.tests\\controllers\\texasholdemcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|solutionrelative:pokerodds.mvc.web.tests\\controllers\\texasholdemcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.mvc.web.tests\\controllers\\valuescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|solutionrelative:pokerodds.mvc.web.tests\\controllers\\valuescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.mvc.web.tests\\handevaluator\\handevaluatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF77FCB2-947E-441F-8D44-C47E15D300BF}|PokerOdds.Mvc.Web.Tests\\PokerOdds.Mvc.Web.Tests.csproj|solutionrelative:pokerodds.mvc.web.tests\\handevaluator\\handevaluatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.mvc.web\\controllers\\texasholdemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|solutionrelative:pokerodds.mvc.web\\controllers\\texasholdemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E185038-7473-42A9-B303-B2AA147C1157}|PokerOdds.HandEvaluator\\PokerOdds.HandEvaluator.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.handevaluator\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E185038-7473-42A9-B303-B2AA147C1157}|PokerOdds.HandEvaluator\\PokerOdds.HandEvaluator.csproj|solutionrelative:pokerodds.handevaluator\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE4795E-6BCF-4C60-9C87-83F72862E6DA}|PokerOdds.Web.OWIN\\PokerOdds.Web.OWIN.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.web.owin\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE4795E-6BCF-4C60-9C87-83F72862E6DA}|PokerOdds.Web.OWIN\\PokerOdds.Web.OWIN.csproj|solutionrelative:pokerodds.web.owin\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|C:\\dev\\PokerOdds-JuanContreras\\pokerodds.mvc.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC338043-19DC-48FF-AC51-FF11E3CE9C64}|PokerOdds.Mvc.Web\\PokerOdds.Mvc.Web.csproj|solutionrelative:pokerodds.mvc.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,76 +42,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HandEvaluatorTest.cs",
+              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
+              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
+              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
+              "RelativeToolTip": "PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T00:07:00.566Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TexasHoldemControllerTest.cs",
               "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\Controllers\\TexasHoldemControllerTest.cs",
               "RelativeDocumentMoniker": "PokerOdds.Mvc.Web.Tests\\Controllers\\TexasHoldemControllerTest.cs",
               "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\Controllers\\TexasHoldemControllerTest.cs",
               "RelativeToolTip": "PokerOdds.Mvc.Web.Tests\\Controllers\\TexasHoldemControllerTest.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFIAAAAjAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAqwE4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:52:10.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HandEvaluatorTest.cs",
-              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
-              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
-              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
-              "RelativeToolTip": "PokerOdds.Mvc.Web.Tests\\HandEvaluator\\HandEvaluatorTest.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAABkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:40:57.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HandEvaluator.cs",
-              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.HandEvaluator\\HandEvaluator.cs",
-              "RelativeDocumentMoniker": "PokerOdds.HandEvaluator\\HandEvaluator.cs",
-              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.HandEvaluator\\HandEvaluator.cs",
-              "RelativeToolTip": "PokerOdds.HandEvaluator\\HandEvaluator.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAOQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:39:16.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Web.OWIN\\Startup.cs",
-              "RelativeDocumentMoniker": "PokerOdds.Web.OWIN\\Startup.cs",
-              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Web.OWIN\\Startup.cs",
-              "RelativeToolTip": "PokerOdds.Web.OWIN\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:23:31.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValuesControllerTest.cs",
-              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\Controllers\\ValuesControllerTest.cs",
-              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web.Tests\\Controllers\\ValuesControllerTest.cs",
-              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web.Tests\\Controllers\\ValuesControllerTest.cs",
-              "RelativeToolTip": "PokerOdds.Mvc.Web.Tests\\Controllers\\ValuesControllerTest.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:21:56.93Z"
+              "WhenOpened": "2024-04-15T00:02:17.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TexasHoldemController.cs",
-              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\Controllers\\TexasHoldemController.cs",
-              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web\\Controllers\\TexasHoldemController.cs",
-              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\Controllers\\TexasHoldemController.cs",
-              "RelativeToolTip": "PokerOdds.Mvc.Web\\Controllers\\TexasHoldemController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAqwEYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T03:45:43.897Z"
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\Web.config",
+              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web\\Web.config",
+              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\Web.config",
+              "RelativeToolTip": "PokerOdds.Mvc.Web\\Web.config",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-14T20:40:58.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\packages.config",
+              "RelativeDocumentMoniker": "PokerOdds.Mvc.Web\\packages.config",
+              "ToolTip": "C:\\dev\\PokerOdds-JuanContreras\\PokerOdds.Mvc.Web\\packages.config",
+              "RelativeToolTip": "PokerOdds.Mvc.Web\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-14T20:40:55.313Z",
+              "EditorCaption": ""
             }
           ]
         }
